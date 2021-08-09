@@ -109,6 +109,6 @@ var mySwiper = new Swiper(".swiper-container", {
 
 checkbox.addEventListener('click', () => {
   basic.textContent = basic.textContent === '240 bs' ? '90 bs' : '240 bs';
-  professional.textContent = professional.textContent === '$249.99' ? '$24.99 ' : '$249.99';
-  master.textContent = master.textContent === '$399.99' ? '$39.99' : '$399.99';
+  professional.textContent = professional.textContent === '360 bs' ? '153 bs ' : '360 bs';
+  master.textContent = master.textContent === '560 bs' ? '270 bs' : '560 bs';
 });
