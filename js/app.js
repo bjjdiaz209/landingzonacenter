@@ -112,3 +112,37 @@ checkbox.addEventListener('click', () => {
   professional.textContent = professional.textContent === '360 bs' ? '153 bs ' : '360 bs';
   master.textContent = master.textContent === '560 bs' ? '270 bs' : '560 bs';
 });
+
+
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '80px',
+  duration: 2000,
+  reset: true
+})
+
+/*SCROLL HOME*/
+sr.reveal('.header-title', {})
+sr.reveal('.text', {delay: 200})
+sr.reveal('.img-element', {origin:'right', delay: 400})
+
+/*SCROLL ABOUT*/
+sr.reveal('.card-content', {delay: 500})
+sr.reveal('.title-sm', {delay: 300})
+sr.reveal('.title', {delay: 400})
+sr.reveal('.info', {delay: 500})
+sr.reveal('.about__social-icon', {delay: 600, interval: 200})
+
+/*SCROLL SKILLS*/
+sr.reveal('.skills__subtitle', {})
+sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
+sr.reveal('.skills__img', {delay: 400})
+
+/*SCROLL PORTFOLIO*/
+sr.reveal('.portfolio__img', {interval: 200})
+
+/*SCROLL CONTACT*/
+sr.reveal('.contact__subtitle', {})
+sr.reveal('.contact__text', {interval: 200})
+sr.reveal('.contact__input', {delay: 400})
+sr.reveal('.contact__button', {delay: 600})
