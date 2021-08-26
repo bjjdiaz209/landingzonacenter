@@ -1338,11 +1338,11 @@ header .slider{
 }
 
 .input-arrow:hover {
-  background-color: #6b44e0;
+  background-color: #17151b;
 }
 
 .focus {
-  background: #fff;
+  background: rgb(8, 8, 8);
 }
 
 .bottom-footer {
