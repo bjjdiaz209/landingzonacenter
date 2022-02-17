@@ -109,7 +109,7 @@ var mySwiper = new Swiper(".swiper-container", {
 
 checkbox.addEventListener('click', () => {
   basic.textContent = basic.textContent === '240 bs' ? '90 bs' : '240 bs';
-  professional.textContent = professional.textContent === '360 bs' ? '153 bs ' : '360 bs';
+  professional.textContent = professional.textContent === '360 bs' ? '150 bs ' : '360 bs';
   master.textContent = master.textContent === '560 bs' ? '270 bs' : '560 bs';
 });
 
